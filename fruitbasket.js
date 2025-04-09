@@ -18,3 +18,7 @@ function removeFruit(quantity) {
 function showTotal(){
     console.log(`Total fruits in basket : ${basket}`);
 }
+ 
+addFruit(5);
+removeFruit(2);
+showTotal();
